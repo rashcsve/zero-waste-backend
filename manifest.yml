@@ -1,0 +1,6 @@
+applications:
+- name: zero-waste-web-app
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
