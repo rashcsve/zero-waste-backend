@@ -67,7 +67,7 @@ This app uses the [Watson Assistant V2 API](https://cloud.ibm.com/apidocs/assist
 -->
 ## Running locally
 
-Make sure you have a valid IBM Cloud account and a Watson Assistant with all credentials (ApiKey, URL, username, password).  
+Make sure you have a valid IBM Cloud account and a Watson Assistant with all credentials (ASSISTANT_IAM_APIKEY, ASSISTANT_ID, ASSISTANT_URL).  
 1. Install the dependencies
 
     ```
