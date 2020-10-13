@@ -32,7 +32,9 @@ app.use(express.static('./public')); // load UI from public folder
 app.use(bodyParser.json());
 
 // Create the service wrapper
-
+console.log(process.env.ASSISTANT_IAM_APIKEY);
+console.log(process.env.ASSISTANT_URL);
+console.log(process.env.ASSISTANT_ID);
 let authenticator;
 if (process.env.ASSISTANT_IAM_APIKEY) {
   authenticator = new IamAuthenticator({
